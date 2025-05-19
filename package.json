@@ -1,0 +1,19 @@
+{
+  "name": "stockbot",
+  "version": "1.0.0",
+  "description": "Fetches stocks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eesazahed/StockBot.git"
+  },
+  "author": "Eesa Zahed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eesazahed/StockBot/issues"
+  },
+  "homepage": "https://github.com/eesazahed/StockBot#readme"
+}

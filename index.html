@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StockBot</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 2rem;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+      .container {
+        max-width: 800px;
+        margin: auto;
+        background: white;
+        padding: 2rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+      ul {
+        padding-left: 1.5rem;
+      }
+      li {
+        margin-bottom: 0.75rem;
+      }
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>StockBot</h1>
+      <p>
+        StockBot is a Slack bot that allows you to fetch the most recent price
+        of a stock or cryptocurrency.
+      </p>
+      <ul>
+        <li>
+          <code>/stock SYMBOL</code>: fetches the price of a stock based on the
+          symbol
+        </li>
+        <li>
+          <code>/stock SYMBOL CURRENCY</code>: fetches the price of a stock and
+          converts the currency from USD to the chosen currency (example: CAD)
+        </li>
+        <li>
+          <code>/crypto SYMBOL</code>: fetches the price of a cryptocurrency
+          based on the symbol
+        </li>
+        <li>
+          <code>/crypto SYMBOL CURRENCY</code>: fetches the price of a
+          cryptocurrency and converts the currency from USD to the chosen
+          currency (example: CAD)
+        </li>
+      </ul>
+      <p>Hosted on <a href="https://hackclub.app" target="_blank">Nest</a></p>
+    </div>
+  </body>
+</html>

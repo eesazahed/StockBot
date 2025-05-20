@@ -37,6 +37,7 @@ app.command("/stock", async ({ command, ack, respond }) => {
     symbol,
     toCurrency,
   });
+
   if (!stockData.success) {
     return await respond(stockData.message);
   }

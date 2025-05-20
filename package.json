@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/eesazahed/StockBot/issues"
   },
-  "homepage": "https://github.com/eesazahed/StockBot#readme"
+  "homepage": "https://github.com/eesazahed/StockBot#readme",
+  "dependencies": {
+    "@slack/bolt": "^4.3.0",
+    "dotenv": "^16.5.0"
+  }
 }
